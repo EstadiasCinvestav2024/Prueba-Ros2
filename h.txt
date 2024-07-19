@@ -1,16 +1,16 @@
 deylahm@VMEstadias:~/Desktop/Simulacion Rotbot/Prueba-Ros2$ colcon build
 Starting >>> holonomic_robot
-Finished <<< holonomic_robot [7.03s]              
+Finished <<< holonomic_robot [7.95s]          
 Starting >>> occupancy_grid_demo
-Finished <<< occupancy_grid_demo [6.52s]           
+Finished <<< occupancy_grid_demo [6.80s]           
 
-Summary: 2 packages finished [16.0s]
+Summary: 2 packages finished [16.8s]
 deylahm@VMEstadias:~/Desktop/Simulacion Rotbot/Prueba-Ros2$ . install/setup.bash
 deylahm@VMEstadias:~/Desktop/Simulacion Rotbot/Prueba-Ros2$ ros2 launch holonomic_robot holonomic_robot_gazebo.launch.py
-[INFO] [launch]: All log files can be found below /home/deylahm/.ros/log/2024-07-19-10-25-04-740674-VMEstadias-33744
+[INFO] [launch]: All log files can be found below /home/deylahm/.ros/log/2024-07-19-10-47-01-941476-VMEstadias-36177
 [INFO] [launch]: Default logging verbosity is set to INFO
 Task exception was never retrieved
-future: <Task finished name='Task-2' coro=<LaunchService._process_one_event() done, defined at /opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py:226> exception=SubstitutionFailure("package 'holonomic_robot' found at '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot', but libexec directory '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/holonomic_robot' does not exist")>
+future: <Task finished name='Task-2' coro=<LaunchService._process_one_event() done, defined at /opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py:226> exception=SubstitutionFailure("executable 'occupancy_grid_publisher' not found on the libexec directory '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/holonomic_robot' ")>
 Traceback (most recent call last):
   File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py", line 228, in _process_one_event
     await self.__process_event(next_event)
@@ -41,9 +41,9 @@ Traceback (most recent call last):
     return ''.join([context.perform_substitution(sub) for sub in subs])
   File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_context.py", line 232, in perform_substitution
     return substitution.perform(self)
-  File "/opt/ros/foxy/lib/python3.8/site-packages/launch_ros/substitutions/executable_in_package.py", line 79, in perform
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch_ros/substitutions/executable_in_package.py", line 84, in perform
     raise SubstitutionFailure(
-launch.substitutions.substitution_failure.SubstitutionFailure: package 'holonomic_robot' found at '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot', but libexec directory '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/holonomic_robot' does not exist
+launch.substitutions.substitution_failure.SubstitutionFailure: executable 'occupancy_grid_publisher' not found on the libexec directory '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/holonomic_robot' 
 Task exception was never retrieved
 future: <Task finished name='Task-12' coro=<LaunchService._process_one_event() done, defined at /opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py:226> exception=RuntimeError('Signal event received before subprocess transport available.')>
 Traceback (most recent call last):
@@ -60,18 +60,11 @@ Traceback (most recent call last):
   File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/execute_process.py", line 443, in __on_signal_process_event
     raise RuntimeError('Signal event received before subprocess transport available.')
 RuntimeError: Signal event received before subprocess transport available.
-[INFO] [gazebo-1]: process started with pid [33746]
-[INFO] [spawn_entity.py-2]: process started with pid [33748]
+[INFO] [gazebo-1]: process started with pid [36179]
+[INFO] [spawn_entity.py-2]: process started with pid [36181]
 [INFO] [gazebo-1]: sending signal 'SIGINT' to process[gazebo-1]
-[ERROR] [gazebo-1]: process has died [pid 33746, exit code -2, cmd 'gazebo --verbose -s libgazebo_ros_init.so -s libgazebo_ros_factory.so'].
-[spawn_entity.py-2] [INFO] [1721402706.892610834] [spawn_entity]: Spawn Entity started
-[spawn_entity.py-2] [INFO] [1721402706.895111062] [spawn_entity]: Loading entity XML from file /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf
-[spawn_entity.py-2] Traceback (most recent call last):
-[spawn_entity.py-2]   File "/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py", line 367, in <module>
-[spawn_entity.py-2]     main()
-[spawn_entity.py-2]   File "/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py", line 362, in main
-[spawn_entity.py-2]     exit_code = spawn_entity_node.run()
-[spawn_entity.py-2]   File "/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py", line 145, in run
-[spawn_entity.py-2]     self.get_logger().error('Error: specified file %s does not exist', self.args.file)
-[spawn_entity.py-2] TypeError: error() takes 2 positional arguments but 3 were given
-[ERROR] [spawn_entity.py-2]: process has died [pid 33748, exit code 1, cmd '/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py -entity holonomic_robot -file /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf --ros-args'].
+[ERROR] [gazebo-1]: process has died [pid 36179, exit code -2, cmd 'gazebo --verbose -s libgazebo_ros_init.so -s libgazebo_ros_factory.so'].
+[spawn_entity.py-2] [INFO] [1721404024.704115656] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-2] [INFO] [1721404024.707123579] [spawn_entity]: Loading entity XML from file /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf
+[spawn_entity.py-2] [ERROR] [1721404024.710107328] [spawn_entity]: Error: specified file /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf does not exist
+[ERROR] [spawn_entity.py-2]: process has died [pid 36181, exit code 1, cmd '/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py -entity holonomic_robot -file /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf --ros-args'].
