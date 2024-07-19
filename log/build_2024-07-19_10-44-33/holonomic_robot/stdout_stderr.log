@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/holonomic_robot/holonomic_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/holonomic_robot/holonomic_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/holonomic_robot/holonomic_robot.egg-info/entry_points.txt
+writing requirements to ../../build/holonomic_robot/holonomic_robot.egg-info/requires.txt
+writing top-level names to ../../build/holonomic_robot/holonomic_robot.egg-info/top_level.txt
+reading manifest file '../../build/holonomic_robot/holonomic_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/holonomic_robot/holonomic_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/holonomic_robot_gazebo.launch.py -> /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/share/holonomic_robot/launch
+creating /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/holonomic_robot
+copying scripts/navigate_robot.py -> /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/holonomic_robot
+running install_egg_info
+removing '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/python3.8/site-packages/holonomic_robot-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/holonomic_robot/holonomic_robot.egg-info to /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/python3.8/site-packages/holonomic_robot-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/holonomic_robot/install.log'
