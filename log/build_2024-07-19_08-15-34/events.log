@@ -1,0 +1,42 @@
+[0.000000] (-) TimerEvent: {}
+[0.000434] (holonomic_robot) JobQueued: {'identifier': 'holonomic_robot', 'dependencies': OrderedDict()}
+[0.000516] (occupancy_grid_demo) JobQueued: {'identifier': 'occupancy_grid_demo', 'dependencies': OrderedDict()}
+[0.000578] (holonomic_robot) JobStarted: {'identifier': 'holonomic_robot'}
+[0.100254] (-) TimerEvent: {}
+[0.201225] (-) TimerEvent: {}
+[0.309662] (-) TimerEvent: {}
+[0.422960] (-) TimerEvent: {}
+[0.528026] (-) TimerEvent: {}
+[0.639886] (-) TimerEvent: {}
+[0.741143] (-) TimerEvent: {}
+[0.844727] (-) TimerEvent: {}
+[0.947954] (-) TimerEvent: {}
+[1.049359] (-) TimerEvent: {}
+[1.155001] (-) TimerEvent: {}
+[1.261783] (-) TimerEvent: {}
+[1.363078] (-) TimerEvent: {}
+[1.468977] (-) TimerEvent: {}
+[1.579938] (-) TimerEvent: {}
+[1.680937] (-) TimerEvent: {}
+[1.783962] (-) TimerEvent: {}
+[1.895977] (-) TimerEvent: {}
+[2.008876] (-) TimerEvent: {}
+[2.127511] (-) TimerEvent: {}
+[2.230104] (-) TimerEvent: {}
+[2.335974] (-) TimerEvent: {}
+[2.437665] (-) TimerEvent: {}
+[2.541709] (-) TimerEvent: {}
+[2.643041] (-) TimerEvent: {}
+[2.745326] (-) TimerEvent: {}
+[2.852028] (-) TimerEvent: {}
+[2.958162] (-) TimerEvent: {}
+[3.059196] (-) TimerEvent: {}
+[3.160418] (-) TimerEvent: {}
+[3.263973] (-) TimerEvent: {}
+[3.384209] (-) TimerEvent: {}
+[3.495970] (-) TimerEvent: {}
+[3.597652] (-) TimerEvent: {}
+[3.653747] (holonomic_robot) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.8/subprocess.py", line 516, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[3.658939] (holonomic_robot) JobEnded: {'identifier': 'holonomic_robot', 'rc': 1}
+[3.668616] (occupancy_grid_demo) JobSkipped: {'identifier': 'occupancy_grid_demo'}
+[3.668720] (-) EventReactorShutdown: {}

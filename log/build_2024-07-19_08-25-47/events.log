@@ -1,0 +1,338 @@
+[0.000000] (-) TimerEvent: {}
+[0.001137] (holonomic_robot) JobQueued: {'identifier': 'holonomic_robot', 'dependencies': OrderedDict()}
+[0.001857] (occupancy_grid_demo) JobQueued: {'identifier': 'occupancy_grid_demo', 'dependencies': OrderedDict()}
+[0.002460] (holonomic_robot) JobStarted: {'identifier': 'holonomic_robot'}
+[0.103519] (-) TimerEvent: {}
+[0.207199] (-) TimerEvent: {}
+[0.332271] (-) TimerEvent: {}
+[0.448812] (-) TimerEvent: {}
+[0.550350] (-) TimerEvent: {}
+[0.656756] (-) TimerEvent: {}
+[0.758631] (-) TimerEvent: {}
+[0.862402] (-) TimerEvent: {}
+[0.971307] (-) TimerEvent: {}
+[1.095096] (-) TimerEvent: {}
+[1.207210] (-) TimerEvent: {}
+[1.323154] (-) TimerEvent: {}
+[1.424525] (-) TimerEvent: {}
+[1.532139] (-) TimerEvent: {}
+[1.639167] (-) TimerEvent: {}
+[1.742141] (-) TimerEvent: {}
+[1.843794] (-) TimerEvent: {}
+[1.951082] (-) TimerEvent: {}
+[2.055267] (-) TimerEvent: {}
+[2.157629] (-) TimerEvent: {}
+[2.275022] (-) TimerEvent: {}
+[2.376063] (-) TimerEvent: {}
+[2.479869] (-) TimerEvent: {}
+[2.625329] (-) TimerEvent: {}
+[2.727559] (-) TimerEvent: {}
+[2.828831] (-) TimerEvent: {}
+[2.944491] (-) TimerEvent: {}
+[3.049781] (-) TimerEvent: {}
+[3.151638] (-) TimerEvent: {}
+[3.254673] (-) TimerEvent: {}
+[3.355570] (-) TimerEvent: {}
+[3.457135] (-) TimerEvent: {}
+[3.557977] (-) TimerEvent: {}
+[3.665052] (-) TimerEvent: {}
+[3.771104] (-) TimerEvent: {}
+[3.872631] (-) TimerEvent: {}
+[3.999081] (-) TimerEvent: {}
+[4.107069] (-) TimerEvent: {}
+[4.223020] (-) TimerEvent: {}
+[4.324284] (-) TimerEvent: {}
+[4.432401] (-) TimerEvent: {}
+[4.539008] (-) TimerEvent: {}
+[4.647039] (-) TimerEvent: {}
+[4.747767] (-) TimerEvent: {}
+[4.849504] (-) TimerEvent: {}
+[4.952224] (-) TimerEvent: {}
+[5.054545] (-) TimerEvent: {}
+[5.155449] (-) TimerEvent: {}
+[5.263583] (-) TimerEvent: {}
+[5.371126] (-) TimerEvent: {}
+[5.483087] (-) TimerEvent: {}
+[5.584127] (-) TimerEvent: {}
+[5.696299] (-) TimerEvent: {}
+[5.798554] (-) TimerEvent: {}
+[5.899985] (-) TimerEvent: {}
+[6.004842] (-) TimerEvent: {}
+[6.119972] (-) TimerEvent: {}
+[6.220956] (-) TimerEvent: {}
+[6.330551] (-) TimerEvent: {}
+[6.447649] (-) TimerEvent: {}
+[6.555177] (-) TimerEvent: {}
+[6.656679] (-) TimerEvent: {}
+[6.759901] (-) TimerEvent: {}
+[6.861413] (-) TimerEvent: {}
+[6.964223] (-) TimerEvent: {}
+[7.065811] (-) TimerEvent: {}
+[7.167669] (-) TimerEvent: {}
+[7.268970] (-) TimerEvent: {}
+[7.370509] (-) TimerEvent: {}
+[7.434458] (holonomic_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/holonomic_robot', 'build', '--build-base', '/home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/build', 'install', '--record', '/home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/install.log', '--install-scripts', '$base/lib/holonomic_robot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/deylahm/Desktop/ros2 (copy)/src/holonomic_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'deylahm', 'SSH_AGENT_PID': '882', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/deylahm', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '736', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus,guid=5b6a4289f61998c58a6c0c83669a3a36', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'deylahm', 'JOURNAL_STREAM': '8:28553', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'deylahm', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/VMEstadias:@/tmp/.ICE-unix/936,unix/VMEstadias:/tmp/.ICE-unix/936', 'INVOCATION_ID': '6a7f1cab6da3402aab69ef9833f3e7f0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a586f209_406a_4a9b_860b_348e29a1f56a', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.283', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1001/bus,guid=5b6a4289f61998c58a6c0c83669a3a36', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[7.471296] (-) TimerEvent: {}
+[7.583918] (-) TimerEvent: {}
+[7.684872] (-) TimerEvent: {}
+[7.789728] (-) TimerEvent: {}
+[7.891143] (-) TimerEvent: {}
+[7.993072] (-) TimerEvent: {}
+[8.103197] (-) TimerEvent: {}
+[8.205329] (-) TimerEvent: {}
+[8.308072] (-) TimerEvent: {}
+[8.412421] (-) TimerEvent: {}
+[8.513962] (-) TimerEvent: {}
+[8.617906] (-) TimerEvent: {}
+[8.726564] (-) TimerEvent: {}
+[8.835103] (-) TimerEvent: {}
+[8.937489] (-) TimerEvent: {}
+[9.044821] (-) TimerEvent: {}
+[9.147766] (-) TimerEvent: {}
+[9.249609] (-) TimerEvent: {}
+[9.350601] (-) TimerEvent: {}
+[9.459433] (-) TimerEvent: {}
+[9.565416] (-) TimerEvent: {}
+[9.666466] (-) TimerEvent: {}
+[9.771252] (-) TimerEvent: {}
+[9.875225] (-) TimerEvent: {}
+[9.979154] (-) TimerEvent: {}
+[10.083221] (-) TimerEvent: {}
+[10.184438] (-) TimerEvent: {}
+[10.295205] (-) TimerEvent: {}
+[10.403254] (-) TimerEvent: {}
+[10.506400] (-) TimerEvent: {}
+[10.607345] (-) TimerEvent: {}
+[10.629446] (holonomic_robot) StdoutLine: {'line': b'running egg_info\n'}
+[10.638791] (holonomic_robot) StdoutLine: {'line': b'writing ../../build/holonomic_robot/holonomic_robot.egg-info/PKG-INFO\n'}
+[10.649467] (holonomic_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/holonomic_robot/holonomic_robot.egg-info/dependency_links.txt\n'}
+[10.660013] (holonomic_robot) StdoutLine: {'line': b'writing entry points to ../../build/holonomic_robot/holonomic_robot.egg-info/entry_points.txt\n'}
+[10.663573] (holonomic_robot) StdoutLine: {'line': b'writing requirements to ../../build/holonomic_robot/holonomic_robot.egg-info/requires.txt\n'}
+[10.667593] (holonomic_robot) StdoutLine: {'line': b'writing top-level names to ../../build/holonomic_robot/holonomic_robot.egg-info/top_level.txt\n'}
+[10.707582] (-) TimerEvent: {}
+[10.809667] (-) TimerEvent: {}
+[10.914240] (-) TimerEvent: {}
+[11.026314] (-) TimerEvent: {}
+[11.128965] (-) TimerEvent: {}
+[11.235106] (-) TimerEvent: {}
+[11.336849] (-) TimerEvent: {}
+[11.399455] (holonomic_robot) StdoutLine: {'line': b"reading manifest file '../../build/holonomic_robot/holonomic_robot.egg-info/SOURCES.txt'\n"}
+[11.414832] (holonomic_robot) StdoutLine: {'line': b"writing manifest file '../../build/holonomic_robot/holonomic_robot.egg-info/SOURCES.txt'\n"}
+[11.463144] (-) TimerEvent: {}
+[11.464711] (holonomic_robot) StdoutLine: {'line': b'running build\n'}
+[11.469042] (holonomic_robot) StdoutLine: {'line': b'running build_py\n'}
+[11.478191] (holonomic_robot) StdoutLine: {'line': b'running install\n'}
+[11.487853] (holonomic_robot) StdoutLine: {'line': b'running install_lib\n'}
+[11.517555] (holonomic_robot) StdoutLine: {'line': b'running install_data\n'}
+[11.523327] (holonomic_robot) StdoutLine: {'line': b'creating /home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/urdf\n'}
+[11.530067] (holonomic_robot) StdoutLine: {'line': b'copying urdf/holonomic_robot.urdf -> /home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/urdf\n'}
+[11.531737] (holonomic_robot) StdoutLine: {'line': b'creating /home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/config\n'}
+[11.539551] (holonomic_robot) StdoutLine: {'line': b'copying config/nav2_params.yaml -> /home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/config\n'}
+[11.543324] (holonomic_robot) StdoutLine: {'line': b'creating /home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/scripts\n'}
+[11.546006] (holonomic_robot) StdoutLine: {'line': b'copying scripts/navigate_robot.py -> /home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/scripts\n'}
+[11.557272] (holonomic_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.576478] (-) TimerEvent: {}
+[11.599287] (holonomic_robot) StdoutLine: {'line': b"removing '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/python3.8/site-packages/holonomic_robot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[11.613984] (holonomic_robot) StdoutLine: {'line': b'Copying ../../build/holonomic_robot/holonomic_robot.egg-info to /home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/python3.8/site-packages/holonomic_robot-0.0.0-py3.8.egg-info\n'}
+[11.670027] (holonomic_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[11.678537] (-) TimerEvent: {}
+[11.783100] (-) TimerEvent: {}
+[11.884201] (-) TimerEvent: {}
+[11.989740] (-) TimerEvent: {}
+[12.079427] (holonomic_robot) StdoutLine: {'line': b"writing list of installed files to '/home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/install.log'\n"}
+[12.096022] (-) TimerEvent: {}
+[12.207143] (-) TimerEvent: {}
+[12.315112] (-) TimerEvent: {}
+[12.446371] (-) TimerEvent: {}
+[12.523300] (holonomic_robot) CommandEnded: {'returncode': 0}
+[12.546705] (-) TimerEvent: {}
+[12.648637] (-) TimerEvent: {}
+[12.744852] (holonomic_robot) JobEnded: {'identifier': 'holonomic_robot', 'rc': 0}
+[12.751200] (-) TimerEvent: {}
+[12.755907] (occupancy_grid_demo) JobStarted: {'identifier': 'occupancy_grid_demo'}
+[12.854540] (-) TimerEvent: {}
+[12.961870] (-) TimerEvent: {}
+[13.071310] (-) TimerEvent: {}
+[13.183180] (-) TimerEvent: {}
+[13.299171] (-) TimerEvent: {}
+[13.403630] (-) TimerEvent: {}
+[13.512915] (-) TimerEvent: {}
+[13.627137] (-) TimerEvent: {}
+[13.730277] (-) TimerEvent: {}
+[13.835772] (-) TimerEvent: {}
+[13.938829] (-) TimerEvent: {}
+[14.055080] (-) TimerEvent: {}
+[14.163086] (-) TimerEvent: {}
+[14.271176] (-) TimerEvent: {}
+[14.379170] (-) TimerEvent: {}
+[14.490342] (-) TimerEvent: {}
+[14.604566] (-) TimerEvent: {}
+[14.705780] (-) TimerEvent: {}
+[14.811202] (-) TimerEvent: {}
+[14.927124] (-) TimerEvent: {}
+[15.039114] (-) TimerEvent: {}
+[15.151102] (-) TimerEvent: {}
+[15.255255] (-) TimerEvent: {}
+[15.370580] (-) TimerEvent: {}
+[15.475907] (-) TimerEvent: {}
+[15.584456] (-) TimerEvent: {}
+[15.686006] (-) TimerEvent: {}
+[15.794804] (-) TimerEvent: {}
+[15.903470] (-) TimerEvent: {}
+[16.125648] (-) TimerEvent: {}
+[16.239168] (-) TimerEvent: {}
+[16.343512] (-) TimerEvent: {}
+[16.451353] (-) TimerEvent: {}
+[16.559121] (-) TimerEvent: {}
+[16.687126] (-) TimerEvent: {}
+[16.794268] (-) TimerEvent: {}
+[16.899505] (-) TimerEvent: {}
+[17.014333] (-) TimerEvent: {}
+[17.119223] (-) TimerEvent: {}
+[17.239100] (-) TimerEvent: {}
+[17.343442] (-) TimerEvent: {}
+[17.463425] (-) TimerEvent: {}
+[17.567074] (-) TimerEvent: {}
+[17.671331] (-) TimerEvent: {}
+[17.776864] (-) TimerEvent: {}
+[17.878069] (-) TimerEvent: {}
+[17.979575] (-) TimerEvent: {}
+[18.090992] (-) TimerEvent: {}
+[18.191909] (-) TimerEvent: {}
+[18.295727] (-) TimerEvent: {}
+[18.409548] (-) TimerEvent: {}
+[18.515177] (-) TimerEvent: {}
+[18.619554] (-) TimerEvent: {}
+[18.723115] (-) TimerEvent: {}
+[18.827158] (-) TimerEvent: {}
+[18.931050] (-) TimerEvent: {}
+[19.039016] (-) TimerEvent: {}
+[19.141433] (-) TimerEvent: {}
+[19.263082] (-) TimerEvent: {}
+[19.375155] (-) TimerEvent: {}
+[19.477273] (-) TimerEvent: {}
+[19.579019] (-) TimerEvent: {}
+[19.680393] (-) TimerEvent: {}
+[19.811338] (-) TimerEvent: {}
+[19.919225] (-) TimerEvent: {}
+[20.022391] (-) TimerEvent: {}
+[20.133467] (-) TimerEvent: {}
+[20.239014] (-) TimerEvent: {}
+[20.340381] (-) TimerEvent: {}
+[20.447163] (-) TimerEvent: {}
+[20.551019] (-) TimerEvent: {}
+[20.655850] (-) TimerEvent: {}
+[20.763115] (-) TimerEvent: {}
+[20.867173] (-) TimerEvent: {}
+[20.973345] (-) TimerEvent: {}
+[21.074637] (-) TimerEvent: {}
+[21.179106] (-) TimerEvent: {}
+[21.287020] (-) TimerEvent: {}
+[21.395108] (-) TimerEvent: {}
+[21.499135] (-) TimerEvent: {}
+[21.603137] (-) TimerEvent: {}
+[21.704467] (-) TimerEvent: {}
+[21.807875] (-) TimerEvent: {}
+[21.909104] (-) TimerEvent: {}
+[22.013380] (-) TimerEvent: {}
+[22.123097] (-) TimerEvent: {}
+[22.227547] (-) TimerEvent: {}
+[22.328588] (-) TimerEvent: {}
+[22.433607] (-) TimerEvent: {}
+[22.544395] (-) TimerEvent: {}
+[22.670521] (-) TimerEvent: {}
+[22.775425] (-) TimerEvent: {}
+[22.887137] (-) TimerEvent: {}
+[22.997202] (-) TimerEvent: {}
+[23.127594] (-) TimerEvent: {}
+[23.232007] (-) TimerEvent: {}
+[23.340263] (-) TimerEvent: {}
+[23.443518] (-) TimerEvent: {}
+[23.571072] (-) TimerEvent: {}
+[23.689931] (-) TimerEvent: {}
+[23.797514] (-) TimerEvent: {}
+[23.904898] (-) TimerEvent: {}
+[24.071091] (-) TimerEvent: {}
+[24.186242] (-) TimerEvent: {}
+[24.298715] (-) TimerEvent: {}
+[24.410273] (-) TimerEvent: {}
+[24.523138] (-) TimerEvent: {}
+[24.634522] (-) TimerEvent: {}
+[24.656821] (occupancy_grid_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/occupancy_grid_demo', 'build', '--build-base', '/home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/build', 'install', '--record', '/home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/install.log', '--install-scripts', '$base/lib/occupancy_grid_demo', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/deylahm/Desktop/ros2 (copy)/src/occupancy_grid_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'deylahm', 'SSH_AGENT_PID': '882', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/deylahm', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '736', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus,guid=5b6a4289f61998c58a6c0c83669a3a36', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'deylahm', 'JOURNAL_STREAM': '8:28553', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'deylahm', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/VMEstadias:@/tmp/.ICE-unix/936,unix/VMEstadias:/tmp/.ICE-unix/936', 'INVOCATION_ID': '6a7f1cab6da3402aab69ef9833f3e7f0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a586f209_406a_4a9b_860b_348e29a1f56a', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.283', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1001/bus,guid=5b6a4289f61998c58a6c0c83669a3a36', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[24.743932] (-) TimerEvent: {}
+[24.845575] (-) TimerEvent: {}
+[24.955326] (-) TimerEvent: {}
+[25.057037] (-) TimerEvent: {}
+[25.185352] (-) TimerEvent: {}
+[25.292636] (-) TimerEvent: {}
+[25.394017] (-) TimerEvent: {}
+[25.503084] (-) TimerEvent: {}
+[25.607196] (-) TimerEvent: {}
+[25.708886] (-) TimerEvent: {}
+[25.815125] (-) TimerEvent: {}
+[25.927153] (-) TimerEvent: {}
+[26.035115] (-) TimerEvent: {}
+[26.136766] (-) TimerEvent: {}
+[26.251053] (-) TimerEvent: {}
+[26.359187] (-) TimerEvent: {}
+[26.460820] (-) TimerEvent: {}
+[26.565424] (-) TimerEvent: {}
+[26.667371] (-) TimerEvent: {}
+[26.775238] (-) TimerEvent: {}
+[26.878025] (-) TimerEvent: {}
+[26.987313] (-) TimerEvent: {}
+[27.091720] (-) TimerEvent: {}
+[27.195536] (-) TimerEvent: {}
+[27.303129] (-) TimerEvent: {}
+[27.409719] (-) TimerEvent: {}
+[27.512186] (-) TimerEvent: {}
+[27.613426] (-) TimerEvent: {}
+[27.723119] (-) TimerEvent: {}
+[27.827076] (-) TimerEvent: {}
+[27.931356] (-) TimerEvent: {}
+[28.047188] (-) TimerEvent: {}
+[28.155740] (-) TimerEvent: {}
+[28.263493] (-) TimerEvent: {}
+[28.377415] (-) TimerEvent: {}
+[28.483345] (-) TimerEvent: {}
+[28.585136] (-) TimerEvent: {}
+[28.759675] (-) TimerEvent: {}
+[28.852313] (occupancy_grid_demo) StdoutLine: {'line': b'running egg_info\n'}
+[28.860104] (-) TimerEvent: {}
+[28.875329] (occupancy_grid_demo) StdoutLine: {'line': b'writing ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/PKG-INFO\n'}
+[28.899245] (occupancy_grid_demo) StdoutLine: {'line': b'writing dependency_links to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/dependency_links.txt\n'}
+[28.905000] (occupancy_grid_demo) StdoutLine: {'line': b'writing entry points to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/entry_points.txt\n'}
+[28.915809] (occupancy_grid_demo) StdoutLine: {'line': b'writing requirements to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/requires.txt\n'}
+[28.917954] (occupancy_grid_demo) StdoutLine: {'line': b'writing top-level names to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/top_level.txt\n'}
+[28.967251] (-) TimerEvent: {}
+[29.084409] (-) TimerEvent: {}
+[29.185339] (-) TimerEvent: {}
+[29.295168] (-) TimerEvent: {}
+[29.408803] (-) TimerEvent: {}
+[29.511969] (-) TimerEvent: {}
+[29.619673] (-) TimerEvent: {}
+[29.696242] (occupancy_grid_demo) StdoutLine: {'line': b"reading manifest file '../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/SOURCES.txt'\n"}
+[29.715275] (occupancy_grid_demo) StdoutLine: {'line': b"writing manifest file '../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/SOURCES.txt'\n"}
+[29.719897] (-) TimerEvent: {}
+[29.725461] (occupancy_grid_demo) StdoutLine: {'line': b'running build\n'}
+[29.726357] (occupancy_grid_demo) StdoutLine: {'line': b'running build_py\n'}
+[29.739271] (occupancy_grid_demo) StdoutLine: {'line': b'running install\n'}
+[29.750508] (occupancy_grid_demo) StdoutLine: {'line': b'running install_lib\n'}
+[29.783400] (occupancy_grid_demo) StdoutLine: {'line': b'running install_data\n'}
+[29.815204] (occupancy_grid_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[29.831159] (-) TimerEvent: {}
+[29.832958] (occupancy_grid_demo) StdoutLine: {'line': b"removing '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[29.849359] (occupancy_grid_demo) StdoutLine: {'line': b'Copying ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info to /home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo-0.0.0-py3.8.egg-info\n'}
+[29.878469] (occupancy_grid_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[29.945916] (-) TimerEvent: {}
+[30.046840] (-) TimerEvent: {}
+[30.151202] (-) TimerEvent: {}
+[30.180671] (occupancy_grid_demo) StdoutLine: {'line': b'Installing occupancy_grid_publisher script to /home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/occupancy_grid_demo\n'}
+[30.195352] (occupancy_grid_demo) StdoutLine: {'line': b"writing list of installed files to '/home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/install.log'\n"}
+[30.251438] (-) TimerEvent: {}
+[30.352811] (-) TimerEvent: {}
+[30.454122] (-) TimerEvent: {}
+[30.460731] (occupancy_grid_demo) CommandEnded: {'returncode': 0}
+[30.557101] (-) TimerEvent: {}
+[30.619307] (occupancy_grid_demo) JobEnded: {'identifier': 'occupancy_grid_demo', 'rc': 0}
+[30.640115] (-) EventReactorShutdown: {}

@@ -1,0 +1,69 @@
+deylahm@VMEstadias:~/Desktop/ros2 (copy)$ ros2 launch holonomic_robot holonomic_robot_gazebo.launch.py
+[INFO] [launch]: All log files can be found below /home/deylahm/.ros/log/2024-07-19-08-38-40-048651-VMEstadias-26049
+[INFO] [launch]: Default logging verbosity is set to INFO
+Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<LaunchService._process_one_event() done, defined at /opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py:226> exception=SubstitutionFailure("package 'holonomic_robot' found at '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot', but libexec directory '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/holonomic_robot' does not exist")>
+Traceback (most recent call last):
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py", line 228, in _process_one_event
+    await self.__process_event(next_event)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py", line 248, in __process_event
+    visit_all_entities_and_collect_futures(entity, self.__context))
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 45, in visit_all_entities_and_collect_futures
+    futures_to_return += visit_all_entities_and_collect_futures(sub_entity, context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 45, in visit_all_entities_and_collect_futures
+    futures_to_return += visit_all_entities_and_collect_futures(sub_entity, context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 45, in visit_all_entities_and_collect_futures
+    futures_to_return += visit_all_entities_and_collect_futures(sub_entity, context)
+  [Previous line repeated 1 more time]
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 38, in visit_all_entities_and_collect_futures
+    sub_entities = entity.visit(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/action.py", line 108, in visit
+    return self.execute(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch_ros/actions/node.py", line 453, in execute
+    ret = super().execute(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/execute_process.py", line 823, in execute
+    self.__expand_substitutions(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/execute_process.py", line 668, in __expand_substitutions
+    cmd = [perform_substitutions(context, x) for x in self.__cmd]
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/execute_process.py", line 668, in <listcomp>
+    cmd = [perform_substitutions(context, x) for x in self.__cmd]
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/perform_substitutions_impl.py", line 26, in perform_substitutions
+    return ''.join([context.perform_substitution(sub) for sub in subs])
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/perform_substitutions_impl.py", line 26, in <listcomp>
+    return ''.join([context.perform_substitution(sub) for sub in subs])
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_context.py", line 232, in perform_substitution
+    return substitution.perform(self)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch_ros/substitutions/executable_in_package.py", line 79, in perform
+    raise SubstitutionFailure(
+launch.substitutions.substitution_failure.SubstitutionFailure: package 'holonomic_robot' found at '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot', but libexec directory '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/holonomic_robot' does not exist
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<LaunchService._process_one_event() done, defined at /opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py:226> exception=RuntimeError('Signal event received before subprocess transport available.')>
+Traceback (most recent call last):
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py", line 228, in _process_one_event
+    await self.__process_event(next_event)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py", line 248, in __process_event
+    visit_all_entities_and_collect_futures(entity, self.__context))
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 38, in visit_all_entities_and_collect_futures
+    sub_entities = entity.visit(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/action.py", line 108, in visit
+    return self.execute(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/opaque_function.py", line 75, in execute
+    return self.__function(context, *self.__args, **self.__kwargs)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/execute_process.py", line 443, in __on_signal_process_event
+    raise RuntimeError('Signal event received before subprocess transport available.')
+RuntimeError: Signal event received before subprocess transport available.
+[INFO] [gazebo-1]: process started with pid [26053]
+[INFO] [spawn_entity.py-2]: process started with pid [26055]
+[INFO] [gazebo-1]: sending signal 'SIGINT' to process[gazebo-1]
+[ERROR] [gazebo-1]: process has died [pid 26053, exit code -2, cmd 'gazebo --verbose -s libgazebo_ros_init.so -s libgazebo_ros_factory.so'].
+[spawn_entity.py-2] [INFO] [1721396323.788880429] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-2] [INFO] [1721396323.791265103] [spawn_entity]: Loading entity XML from file /home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf
+[spawn_entity.py-2] Traceback (most recent call last):
+[spawn_entity.py-2]   File "/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py", line 367, in <module>
+[spawn_entity.py-2]     main()
+[spawn_entity.py-2]   File "/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py", line 362, in main
+[spawn_entity.py-2]     exit_code = spawn_entity_node.run()
+[spawn_entity.py-2]   File "/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py", line 145, in run
+[spawn_entity.py-2]     self.get_logger().error('Error: specified file %s does not exist', self.args.file)
+[spawn_entity.py-2] TypeError: error() takes 2 positional arguments but 3 were given
+[ERROR] [spawn_entity.py-2]: process has died [pid 26055, exit code 1, cmd '/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py -entity holonomic_robot -file /home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf --ros-args'].

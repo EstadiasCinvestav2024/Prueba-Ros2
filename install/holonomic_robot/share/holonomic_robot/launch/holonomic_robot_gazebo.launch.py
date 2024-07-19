@@ -46,17 +46,12 @@ def generate_launch_description():
 
         ), 
 
-        Node( 
-
-            package='your_package', 
-
-            executable='occupancy_grid_publisher', 
-
-            name='occupancy_grid_publisher', 
-
-            output='screen' 
-
-        ), 
+        Node(
+            package='holonomic_robot',  # Cambiado de 'your_package' a 'holonomic_robot'
+            executable='occupancy_grid_publisher',
+            name='occupancy_grid_publisher',
+            output='screen'
+        ),
 
         Node( 
 
