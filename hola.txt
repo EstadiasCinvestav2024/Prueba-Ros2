@@ -1,35 +1,84 @@
-deylahm@VMEstadias:~/Desktop/ros2 (copy)$ colcon build
-Starting >>> holonomic_robot
-Traceback (most recent call last):obot - 3.3s]
-  File "<string>", line 1, in <module>
-  File "/usr/lib/python3.8/distutils/core.py", line 215, in run_setup
-    exec(f.read(), g)
-  File "<string>", line 8, in <module>
-NameError: name 'glob' is not defined
---- stderr: holonomic_robot                   
+deylahm@VMEstadias:~/Desktop/ros2 (copy)$ ros2 launch holonomic_robot holonomic_robot_gazebo.launch.py
+[INFO] [launch]: All log files can be found below /home/deylahm/.ros/log/2024-07-19-08-29-18-570066-VMEstadias-25280
+[INFO] [launch]: Default logging verbosity is set to INFO
+Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<LaunchService._process_one_event() done, defined at /opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py:226> exception=PackageNotFoundError("package 'your_package' not found, searching: ['/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo', '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot', '/opt/ros/foxy']")>
 Traceback (most recent call last):
-  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
-    rc = await self.task(*args, **kwargs)
-  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
-    return await task_method(*args, **kwargs)
-  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build
-    setup_py_data = get_setup_data(self.context.pkg, env)
-  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data
-    return dict(pkg.metadata[key](env))
-  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter
-    return get_setup_information(
-  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information
-    _setup_information_cache[hashable_env] = _get_setup_information(
-  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information
-    result = subprocess.run(
-  File "/usr/lib/python3.8/subprocess.py", line 516, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', '-c', 'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))']' returned non-zero exit status 1.
----
-Failed   <<< holonomic_robot [3.66s, exited with code 1]
+  File "/opt/ros/foxy/lib/python3.8/site-packages/ament_index_python/packages.py", line 50, in get_package_prefix
+    content, package_prefix = get_resource('packages', package_name)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/ament_index_python/resources.py", line 48, in get_resource
+    raise LookupError(
+LookupError: Could not find the resource 'your_package' of type 'packages'
 
-Summary: 0 packages finished [6.77s]
-  1 package failed: holonomic_robot
-  1 package had stderr output: holonomic_robot
-  1 package not processed
-Command '['/usr/bin/python3', '-c', 'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))']' returned non-zero exit status 1.
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py", line 228, in _process_one_event
+    await self.__process_event(next_event)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py", line 248, in __process_event
+    visit_all_entities_and_collect_futures(entity, self.__context))
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 45, in visit_all_entities_and_collect_futures
+    futures_to_return += visit_all_entities_and_collect_futures(sub_entity, context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 45, in visit_all_entities_and_collect_futures
+    futures_to_return += visit_all_entities_and_collect_futures(sub_entity, context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 45, in visit_all_entities_and_collect_futures
+    futures_to_return += visit_all_entities_and_collect_futures(sub_entity, context)
+  [Previous line repeated 1 more time]
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 38, in visit_all_entities_and_collect_futures
+    sub_entities = entity.visit(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/action.py", line 108, in visit
+    return self.execute(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch_ros/actions/node.py", line 453, in execute
+    ret = super().execute(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/execute_process.py", line 823, in execute
+    self.__expand_substitutions(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/execute_process.py", line 668, in __expand_substitutions
+    cmd = [perform_substitutions(context, x) for x in self.__cmd]
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/execute_process.py", line 668, in <listcomp>
+    cmd = [perform_substitutions(context, x) for x in self.__cmd]
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/perform_substitutions_impl.py", line 26, in perform_substitutions
+    return ''.join([context.perform_substitution(sub) for sub in subs])
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/perform_substitutions_impl.py", line 26, in <listcomp>
+    return ''.join([context.perform_substitution(sub) for sub in subs])
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_context.py", line 232, in perform_substitution
+    return substitution.perform(self)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch_ros/substitutions/executable_in_package.py", line 76, in perform
+    package_prefix = super().perform(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch_ros/substitutions/find_package.py", line 79, in perform
+    result = self.find(package)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch_ros/substitutions/find_package.py", line 96, in find
+    return get_package_prefix(package_name)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/ament_index_python/packages.py", line 52, in get_package_prefix
+    raise PackageNotFoundError(
+ament_index_python.packages.PackageNotFoundError: "package 'your_package' not found, searching: ['/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo', '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot', '/opt/ros/foxy']"
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<LaunchService._process_one_event() done, defined at /opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py:226> exception=RuntimeError('Signal event received before subprocess transport available.')>
+Traceback (most recent call last):
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py", line 228, in _process_one_event
+    await self.__process_event(next_event)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py", line 248, in __process_event
+    visit_all_entities_and_collect_futures(entity, self.__context))
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 38, in visit_all_entities_and_collect_futures
+    sub_entities = entity.visit(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/action.py", line 108, in visit
+    return self.execute(context)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/opaque_function.py", line 75, in execute
+    return self.__function(context, *self.__args, **self.__kwargs)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/execute_process.py", line 443, in __on_signal_process_event
+    raise RuntimeError('Signal event received before subprocess transport available.')
+RuntimeError: Signal event received before subprocess transport available.
+[INFO] [gazebo-1]: process started with pid [25283]
+[INFO] [spawn_entity.py-2]: process started with pid [25285]
+[INFO] [gazebo-1]: sending signal 'SIGINT' to process[gazebo-1]
+[ERROR] [gazebo-1]: process has died [pid 25283, exit code -2, cmd 'gazebo --verbose -s libgazebo_ros_init.so -s libgazebo_ros_factory.so'].
+[spawn_entity.py-2] [INFO] [1721395761.557388497] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-2] [INFO] [1721395761.561087720] [spawn_entity]: Loading entity XML from file /home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf
+[spawn_entity.py-2] Traceback (most recent call last):
+[spawn_entity.py-2]   File "/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py", line 367, in <module>
+[spawn_entity.py-2]     main()
+[spawn_entity.py-2]   File "/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py", line 362, in main
+[spawn_entity.py-2]     exit_code = spawn_entity_node.run()
+[spawn_entity.py-2]   File "/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py", line 145, in run
+[spawn_entity.py-2]     self.get_logger().error('Error: specified file %s does not exist', self.args.file)
+[spawn_entity.py-2] TypeError: error() takes 2 positional arguments but 3 were given
+[ERROR] [spawn_entity.py-2]: process has died [pid 25285, exit code 1, cmd '/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py -entity holonomic_robot -file /home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf --ros-args'].
