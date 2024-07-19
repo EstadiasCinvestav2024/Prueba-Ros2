@@ -4,6 +4,8 @@ from setuptools import setup
 
 package_name = 'holonomic_robot' 
 
+
+launch_files = glob.glob('launch/*.launch.py')
  
 
 setup( 
