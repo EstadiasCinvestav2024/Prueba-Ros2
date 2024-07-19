@@ -1,13 +1,13 @@
 deylahm@VMEstadias:~/Desktop/Simulacion Rotbot/Prueba-Ros2$ colcon build
 Starting >>> holonomic_robot
-Finished <<< holonomic_robot [5.14s]          
+Finished <<< holonomic_robot [7.03s]              
 Starting >>> occupancy_grid_demo
-Finished <<< occupancy_grid_demo [7.07s]           
+Finished <<< occupancy_grid_demo [6.52s]           
 
-Summary: 2 packages finished [13.6s]
+Summary: 2 packages finished [16.0s]
 deylahm@VMEstadias:~/Desktop/Simulacion Rotbot/Prueba-Ros2$ . install/setup.bash
 deylahm@VMEstadias:~/Desktop/Simulacion Rotbot/Prueba-Ros2$ ros2 launch holonomic_robot holonomic_robot_gazebo.launch.py
-[INFO] [launch]: All log files can be found below /home/deylahm/.ros/log/2024-07-19-10-13-15-784110-VMEstadias-32793
+[INFO] [launch]: All log files can be found below /home/deylahm/.ros/log/2024-07-19-10-25-04-740674-VMEstadias-33744
 [INFO] [launch]: Default logging verbosity is set to INFO
 Task exception was never retrieved
 future: <Task finished name='Task-2' coro=<LaunchService._process_one_event() done, defined at /opt/ros/foxy/lib/python3.8/site-packages/launch/launch_service.py:226> exception=SubstitutionFailure("package 'holonomic_robot' found at '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot', but libexec directory '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/holonomic_robot' does not exist")>
@@ -60,12 +60,12 @@ Traceback (most recent call last):
   File "/opt/ros/foxy/lib/python3.8/site-packages/launch/actions/execute_process.py", line 443, in __on_signal_process_event
     raise RuntimeError('Signal event received before subprocess transport available.')
 RuntimeError: Signal event received before subprocess transport available.
-[INFO] [gazebo-1]: process started with pid [32795]
-[INFO] [spawn_entity.py-2]: process started with pid [32797]
+[INFO] [gazebo-1]: process started with pid [33746]
+[INFO] [spawn_entity.py-2]: process started with pid [33748]
 [INFO] [gazebo-1]: sending signal 'SIGINT' to process[gazebo-1]
-[ERROR] [gazebo-1]: process has died [pid 32795, exit code -2, cmd 'gazebo --verbose -s libgazebo_ros_init.so -s libgazebo_ros_factory.so'].
-[spawn_entity.py-2] [INFO] [1721401998.021895096] [spawn_entity]: Spawn Entity started
-[spawn_entity.py-2] [INFO] [1721401998.024346236] [spawn_entity]: Loading entity XML from file /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf
+[ERROR] [gazebo-1]: process has died [pid 33746, exit code -2, cmd 'gazebo --verbose -s libgazebo_ros_init.so -s libgazebo_ros_factory.so'].
+[spawn_entity.py-2] [INFO] [1721402706.892610834] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-2] [INFO] [1721402706.895111062] [spawn_entity]: Loading entity XML from file /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf
 [spawn_entity.py-2] Traceback (most recent call last):
 [spawn_entity.py-2]   File "/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py", line 367, in <module>
 [spawn_entity.py-2]     main()
@@ -74,4 +74,4 @@ RuntimeError: Signal event received before subprocess transport available.
 [spawn_entity.py-2]   File "/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py", line 145, in run
 [spawn_entity.py-2]     self.get_logger().error('Error: specified file %s does not exist', self.args.file)
 [spawn_entity.py-2] TypeError: error() takes 2 positional arguments but 3 were given
-[ERROR] [spawn_entity.py-2]: process has died [pid 32797, exit code 1, cmd '/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py -entity holonomic_robot -file /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf --ros-args'].
+[ERROR] [spawn_entity.py-2]: process has died [pid 33748, exit code 1, cmd '/opt/ros/foxy/lib/gazebo_ros/spawn_entity.py -entity holonomic_robot -file /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/holonomic_robot/urdf/holonomic_robot.urdf --ros-args'].

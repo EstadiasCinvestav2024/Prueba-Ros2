@@ -1,0 +1,30 @@
+[3.317s] Invoking command in '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/src/occupancy_grid_demo': PYTHONPATH=/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/occupancy_grid_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/occupancy_grid_demo build --build-base /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/occupancy_grid_demo/build install --record /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/occupancy_grid_demo/install.log --install-scripts $base/lib/occupancy_grid_demo --single-version-externally-managed install_data
+[4.456s] running egg_info
+[4.463s] writing ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/PKG-INFO
+[4.472s] writing dependency_links to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/dependency_links.txt
+[4.479s] writing entry points to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/entry_points.txt
+[4.483s] writing requirements to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/requires.txt
+[4.487s] writing top-level names to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/top_level.txt
+[4.792s] reading manifest file '../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/SOURCES.txt'
+[4.798s] writing manifest file '../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/SOURCES.txt'
+[4.801s] running build
+[4.801s] running build_py
+[4.803s] running install
+[4.811s] running install_lib
+[4.815s] creating /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo
+[4.816s] copying /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/occupancy_grid_demo/build/lib/occupancy_grid_demo/occupancy_grid_publisher.py -> /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo
+[4.819s] copying /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/occupancy_grid_demo/build/lib/occupancy_grid_demo/__init__.py -> /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo
+[4.823s] byte-compiling /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo/occupancy_grid_publisher.py to occupancy_grid_publisher.cpython-38.pyc
+[4.839s] byte-compiling /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo/__init__.py to __init__.cpython-38.pyc
+[4.840s] running install_data
+[4.841s] creating /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/ament_index
+[4.842s] creating /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/ament_index/resource_index
+[4.844s] creating /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/ament_index/resource_index/packages
+[4.848s] copying resource/occupancy_grid_demo -> /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/ament_index/resource_index/packages
+[4.851s] copying package.xml -> /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/share/occupancy_grid_demo
+[4.852s] running install_egg_info
+[4.873s] Copying ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info to /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo-0.0.0-py3.8.egg-info
+[4.895s] running install_scripts
+[5.044s] Installing occupancy_grid_publisher script to /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/lib/occupancy_grid_demo
+[5.047s] writing list of installed files to '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/occupancy_grid_demo/install.log'
+[5.206s] Invoked command in '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/src/occupancy_grid_demo' returned '0': PYTHONPATH=/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/occupancy_grid_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/occupancy_grid_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/occupancy_grid_demo build --build-base /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/occupancy_grid_demo/build install --record /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/occupancy_grid_demo/install.log --install-scripts $base/lib/occupancy_grid_demo --single-version-externally-managed install_data
