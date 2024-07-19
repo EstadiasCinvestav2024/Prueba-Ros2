@@ -17,6 +17,8 @@ setup(
         ('share/' + package_name + '/urdf', ['urdf/holonomic_robot.urdf']),
         ('share/' + package_name + '/config', ['config/nav2_params.yaml']),
         ('share/' + package_name + '/scripts', ['scripts/navigate_robot.py']),
+        ('lib/' + package_name, ['scripts/navigate_robot.py']),
+
     ],
     install_requires=['setuptools'],
     zip_safe=True,

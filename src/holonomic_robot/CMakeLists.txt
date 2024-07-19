@@ -19,8 +19,11 @@ install(DIRECTORY launch urdf config scripts
   DESTINATION share/${PROJECT_NAME} 
 
 ) 
+install(
+  PROGRAMS scripts/navigate_robot.py  # Lista de scripts ejecutables
+  DESTINATION lib/${PROJECT_NAME}
+)
 
- 
 
 ament_package() 
 message("Instalacion completa")

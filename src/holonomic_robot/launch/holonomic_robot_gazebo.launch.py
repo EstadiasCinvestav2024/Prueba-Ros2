@@ -4,15 +4,12 @@ from launch.actions import ExecuteProcess
 import os
 
 def generate_launch_description():
-    # Obtiene el directorio de instalación del paquete
     package_share_directory = os.path.join(
         os.getenv('AMENT_PREFIX_PATH').split(':')[0],
         'share/holonomic_robot'
     )
 
-    # Construye la ruta al archivo URDF
     urdf_file = os.path.join(package_share_directory, 'urdf', 'holonomic_robot.urdf')
-    
 
     return LaunchDescription([
         ExecuteProcess(
@@ -26,16 +23,16 @@ def generate_launch_description():
             output='screen'
         ),
         Node(
-            package='holonomic_robot',
+            package='holonomic_robot',  # Asegúrate de que este sea el nombre correcto del paquete
             executable='occupancy_grid_publisher',
             name='occupancy_grid_publisher',
             output='screen'
         ),
-        Node( 
-            package='rviz2', 
-            executable='rviz2', 
-            name='rviz2', 
-            output='screen', 
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            output='screen',
             arguments=['-d', os.path.join(os.getenv('AMENT_PREFIX_PATH').split(':')[0], 'share/holonomic_robot/default.rviz')]
         )
     ])
