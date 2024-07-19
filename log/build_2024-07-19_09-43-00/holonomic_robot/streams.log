@@ -1,0 +1,21 @@
+[7.791s] Invoking command in '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/src/holonomic_robot': PYTHONPATH=/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/holonomic_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/holonomic_robot build --build-base /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/holonomic_robot/build install --record /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/holonomic_robot/install.log --install-scripts $base/lib/holonomic_robot --single-version-externally-managed install_data
+[10.708s] running egg_info
+[10.717s] writing ../../build/holonomic_robot/holonomic_robot.egg-info/PKG-INFO
+[10.722s] writing dependency_links to ../../build/holonomic_robot/holonomic_robot.egg-info/dependency_links.txt
+[10.729s] writing entry points to ../../build/holonomic_robot/holonomic_robot.egg-info/entry_points.txt
+[10.730s] writing requirements to ../../build/holonomic_robot/holonomic_robot.egg-info/requires.txt
+[10.736s] writing top-level names to ../../build/holonomic_robot/holonomic_robot.egg-info/top_level.txt
+[11.211s] reading manifest file '../../build/holonomic_robot/holonomic_robot.egg-info/SOURCES.txt'
+[11.217s] writing manifest file '../../build/holonomic_robot/holonomic_robot.egg-info/SOURCES.txt'
+[11.218s] running build
+[11.219s] running build_py
+[11.223s] running install
+[11.232s] running install_lib
+[11.241s] running install_data
+[11.243s] copying launch/holonomic_robot_gazebo.launch.py -> /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/share/holonomic_robot/launch
+[11.247s] running install_egg_info
+[11.262s] removing '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/python3.8/site-packages/holonomic_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[11.276s] Copying ../../build/holonomic_robot/holonomic_robot.egg-info to /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/python3.8/site-packages/holonomic_robot-0.0.0-py3.8.egg-info
+[11.281s] running install_scripts
+[11.476s] writing list of installed files to '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/holonomic_robot/install.log'
+[11.684s] Invoked command in '/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/src/holonomic_robot' returned '0': PYTHONPATH=/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/holonomic_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/holonomic_robot build --build-base /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/holonomic_robot/build install --record /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/build/holonomic_robot/install.log --install-scripts $base/lib/holonomic_robot --single-version-externally-managed install_data

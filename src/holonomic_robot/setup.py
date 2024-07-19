@@ -3,7 +3,7 @@ from setuptools import setup
 
 package_name = 'holonomic_robot'
 
-launch_files = glob.glob('launch/*.launch.py')
+launch_files = glob.glob('launch/*.launch.py') + glob.glob('launch/*.py')
 
 setup(
     name=package_name,
