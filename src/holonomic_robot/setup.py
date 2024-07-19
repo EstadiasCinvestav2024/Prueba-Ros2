@@ -22,7 +22,10 @@ setup(
 
         ('share/' + package_name, ['package.xml']), 
 
-        ('share/' + package_name + '/launch', ['launch/holonomic_robot_gazebo.launch.py']),  # Incluye tus archivos .launch.py aquí 
+        ('share/' + package_name + '/launch', launch_files), 
+        ('share/' + package_name + '/urdf', ['urdf/holonomic_robot.urdf']),
+        ('share/' + package_name + '/config', ['config/nav2_params.yaml']),  # Incluye tus archivos .yaml aquí
+        ('share/' + package_name + '/scripts', ['scripts/navigate_robot.py']),
 
 
     ], 
