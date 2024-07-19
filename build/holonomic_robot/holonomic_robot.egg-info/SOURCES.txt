@@ -8,9 +8,12 @@ setup.py
 ../../build/holonomic_robot/holonomic_robot.egg-info/requires.txt
 ../../build/holonomic_robot/holonomic_robot.egg-info/top_level.txt
 ../../build/holonomic_robot/holonomic_robot.egg-info/zip-safe
+config/nav2_params.yaml
 holonomic_robot/__init__.py
 launch/holonomic_robot_gazebo.launch.py
 resource/holonomic_robot
+scripts/navigate_robot.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/holonomic_robot.urdf
