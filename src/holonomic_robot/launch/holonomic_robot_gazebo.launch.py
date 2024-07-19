@@ -13,12 +13,6 @@ def generate_launch_description():
     # Construye la ruta al archivo URDF
     urdf_file = os.path.join(package_share_directory, 'urdf', 'holonomic_robot.urdf')
     
-    # Construye la ruta al archivo de configuración de RViz
-    # Subir tres niveles desde launch para llegar a la raíz del proyecto
-    rviz_config_file = os.path.join(
-        os.getenv('AMENT_PREFIX_PATH').split(':')[0], 
-        'default.rviz'
-    )
 
     return LaunchDescription([
         ExecuteProcess(
@@ -37,11 +31,11 @@ def generate_launch_description():
             name='occupancy_grid_publisher',
             output='screen'
         ),
-        Node(
-            package='rviz2',
-            executable='rviz2',
-            name='rviz2',
-            output='screen',
-            arguments=['-d', rviz_config_file]
-        ),
+        Node( 
+            package='rviz2', 
+            executable='rviz2', 
+            name='rviz2', 
+            output='screen', 
+            arguments=['-d', os.path.join(os.getenv('AMENT_PREFIX_PATH').split(':')[0], 'share/holonomic_robot/default.rviz')]
+        )
     ])
