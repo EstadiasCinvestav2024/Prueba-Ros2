@@ -3,6 +3,7 @@
 /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/share/ament_index/resource_index/packages/holonomic_robot
 /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/share/holonomic_robot/package.xml
 /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/share/holonomic_robot/launch/holonomic_robot_gazebo.launch.py
+/home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/share/holonomic_robot/launch/nav2_launch.py
 /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/share/holonomic_robot/urdf/holonomic_robot.urdf
 /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/share/holonomic_robot/config/nav2_params.yaml
 /home/deylahm/Desktop/Simulacion Rotbot/Prueba-Ros2/install/holonomic_robot/share/holonomic_robot/scripts/navigate_robot.py
