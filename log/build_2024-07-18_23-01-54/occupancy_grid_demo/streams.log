@@ -1,0 +1,21 @@
+[8.374s] Invoking command in '/home/deylahm/Desktop/ros2/src/occupancy_grid_demo': PYTHONPATH=/home/deylahm/Desktop/ros2/build/occupancy_grid_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/ros2/install/occupancy_grid_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/occupancy_grid_demo build --build-base /home/deylahm/Desktop/ros2/build/occupancy_grid_demo/build install --record /home/deylahm/Desktop/ros2/build/occupancy_grid_demo/install.log --install-scripts $base/lib/occupancy_grid_demo --single-version-externally-managed install_data
+[11.233s] running egg_info
+[11.252s] writing ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/PKG-INFO
+[11.273s] writing dependency_links to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/dependency_links.txt
+[11.280s] writing entry points to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/entry_points.txt
+[11.284s] writing requirements to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/requires.txt
+[11.292s] writing top-level names to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/top_level.txt
+[11.912s] reading manifest file '../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/SOURCES.txt'
+[11.937s] writing manifest file '../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/SOURCES.txt'
+[11.938s] running build
+[11.939s] running build_py
+[11.948s] running install
+[11.960s] running install_lib
+[11.980s] running install_data
+[11.981s] running install_egg_info
+[12.004s] removing '/home/deylahm/Desktop/ros2/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo-0.0.0-py3.8.egg-info' (and everything under it)
+[12.027s] Copying ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info to /home/deylahm/Desktop/ros2/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo-0.0.0-py3.8.egg-info
+[12.050s] running install_scripts
+[12.352s] Installing occupancy_grid_publisher script to /home/deylahm/Desktop/ros2/install/occupancy_grid_demo/lib/occupancy_grid_demo
+[12.356s] writing list of installed files to '/home/deylahm/Desktop/ros2/build/occupancy_grid_demo/install.log'
+[12.582s] Invoked command in '/home/deylahm/Desktop/ros2/src/occupancy_grid_demo' returned '0': PYTHONPATH=/home/deylahm/Desktop/ros2/build/occupancy_grid_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/ros2/install/occupancy_grid_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/occupancy_grid_demo build --build-base /home/deylahm/Desktop/ros2/build/occupancy_grid_demo/build install --record /home/deylahm/Desktop/ros2/build/occupancy_grid_demo/install.log --install-scripts $base/lib/occupancy_grid_demo --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[5.074s] Invoking command in '/home/deylahm/Desktop/ros2 (copy)/src/holonomic_robot': PYTHONPATH=/home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/holonomic_robot build --build-base /home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/build install --record /home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/install.log --install-scripts $base/lib/holonomic_robot --single-version-externally-managed install_data
+[6.663s] running egg_info
+[6.669s] writing ../../build/holonomic_robot/holonomic_robot.egg-info/PKG-INFO
+[6.670s] writing dependency_links to ../../build/holonomic_robot/holonomic_robot.egg-info/dependency_links.txt
+[6.671s] writing entry points to ../../build/holonomic_robot/holonomic_robot.egg-info/entry_points.txt
+[6.673s] writing requirements to ../../build/holonomic_robot/holonomic_robot.egg-info/requires.txt
+[6.674s] writing top-level names to ../../build/holonomic_robot/holonomic_robot.egg-info/top_level.txt
+[7.109s] reading manifest file '../../build/holonomic_robot/holonomic_robot.egg-info/SOURCES.txt'
+[7.146s] writing manifest file '../../build/holonomic_robot/holonomic_robot.egg-info/SOURCES.txt'
+[7.149s] running build
+[7.150s] running build_py
+[7.161s] running install
+[7.173s] running install_lib
+[7.201s] running install_data
+[7.203s] running install_egg_info
+[7.213s] removing '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/python3.8/site-packages/holonomic_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[7.237s] Copying ../../build/holonomic_robot/holonomic_robot.egg-info to /home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/python3.8/site-packages/holonomic_robot-0.0.0-py3.8.egg-info
+[7.241s] running install_scripts
+[7.426s] writing list of installed files to '/home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/install.log'
+[7.594s] Invoked command in '/home/deylahm/Desktop/ros2 (copy)/src/holonomic_robot' returned '0': PYTHONPATH=/home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/holonomic_robot build --build-base /home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/build install --record /home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/install.log --install-scripts $base/lib/holonomic_robot --single-version-externally-managed install_data

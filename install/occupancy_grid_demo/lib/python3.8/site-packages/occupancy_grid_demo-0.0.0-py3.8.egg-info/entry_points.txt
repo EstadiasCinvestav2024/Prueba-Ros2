@@ -1,0 +1,3 @@
+[console_scripts]
+occupancy_grid_publisher = occupancy_grid_demo.occupancy_grid_publisher:main
+

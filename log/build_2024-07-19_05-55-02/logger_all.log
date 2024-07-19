@@ -1,0 +1,177 @@
+[2.067s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.067s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0063e09ac0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=1, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0063e09ac0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0063ccd9d0>)
+[4.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.718s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/deylahm/Desktop/ros2 (copy)'
+[4.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.719s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.719s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.719s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.775s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.775s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.775s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.776s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.776s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.777s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.777s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.778s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.778s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/holonomic_robot) by extensions ['ignore', 'ignore_ament_install']
+[4.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/holonomic_robot) by extension 'ignore'
+[4.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/holonomic_robot) by extension 'ignore_ament_install'
+[4.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/holonomic_robot) by extensions ['colcon_pkg']
+[4.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/holonomic_robot) by extension 'colcon_pkg'
+[4.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/holonomic_robot) by extensions ['colcon_meta']
+[4.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/holonomic_robot) by extension 'colcon_meta'
+[4.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/holonomic_robot) by extensions ['ros']
+[4.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/holonomic_robot) by extension 'ros'
+[4.800s] DEBUG:colcon.colcon_core.package_identification:Package 'src/holonomic_robot' with type 'ros.ament_python' and name 'holonomic_robot'
+[4.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/occupancy_grid_demo) by extensions ['ignore', 'ignore_ament_install']
+[4.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/occupancy_grid_demo) by extension 'ignore'
+[4.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/occupancy_grid_demo) by extension 'ignore_ament_install'
+[4.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/occupancy_grid_demo) by extensions ['colcon_pkg']
+[4.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/occupancy_grid_demo) by extension 'colcon_pkg'
+[4.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/occupancy_grid_demo) by extensions ['colcon_meta']
+[4.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/occupancy_grid_demo) by extension 'colcon_meta'
+[4.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/occupancy_grid_demo) by extensions ['ros']
+[4.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/occupancy_grid_demo) by extension 'ros'
+[4.806s] DEBUG:colcon.colcon_core.package_identification:Package 'src/occupancy_grid_demo' with type 'ros.ament_python' and name 'occupancy_grid_demo'
+[4.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.894s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/deylahm/Desktop/ros2 (copy)/install
+[4.902s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/foxy
+[4.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.427s] Level 5:colcon.colcon_core.verb:set package 'holonomic_robot' build argument 'cmake_args' from command line to 'None'
+[5.428s] Level 5:colcon.colcon_core.verb:set package 'holonomic_robot' build argument 'cmake_target' from command line to 'None'
+[5.428s] Level 5:colcon.colcon_core.verb:set package 'holonomic_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.428s] Level 5:colcon.colcon_core.verb:set package 'holonomic_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[5.428s] Level 5:colcon.colcon_core.verb:set package 'holonomic_robot' build argument 'cmake_clean_first' from command line to 'False'
+[5.428s] Level 5:colcon.colcon_core.verb:set package 'holonomic_robot' build argument 'cmake_force_configure' from command line to 'False'
+[5.429s] Level 5:colcon.colcon_core.verb:set package 'holonomic_robot' build argument 'ament_cmake_args' from command line to 'None'
+[5.429s] Level 5:colcon.colcon_core.verb:set package 'holonomic_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[5.429s] Level 5:colcon.colcon_core.verb:set package 'holonomic_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.430s] DEBUG:colcon.colcon_core.verb:Building package 'holonomic_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot', 'merge_install': False, 'path': '/home/deylahm/Desktop/ros2 (copy)/src/holonomic_robot', 'symlink_install': False, 'test_result_base': None}
+[5.432s] Level 5:colcon.colcon_core.verb:set package 'occupancy_grid_demo' build argument 'cmake_args' from command line to 'None'
+[5.432s] Level 5:colcon.colcon_core.verb:set package 'occupancy_grid_demo' build argument 'cmake_target' from command line to 'None'
+[5.432s] Level 5:colcon.colcon_core.verb:set package 'occupancy_grid_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.433s] Level 5:colcon.colcon_core.verb:set package 'occupancy_grid_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[5.433s] Level 5:colcon.colcon_core.verb:set package 'occupancy_grid_demo' build argument 'cmake_clean_first' from command line to 'False'
+[5.433s] Level 5:colcon.colcon_core.verb:set package 'occupancy_grid_demo' build argument 'cmake_force_configure' from command line to 'False'
+[5.433s] Level 5:colcon.colcon_core.verb:set package 'occupancy_grid_demo' build argument 'ament_cmake_args' from command line to 'None'
+[5.433s] Level 5:colcon.colcon_core.verb:set package 'occupancy_grid_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[5.434s] Level 5:colcon.colcon_core.verb:set package 'occupancy_grid_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.434s] DEBUG:colcon.colcon_core.verb:Building package 'occupancy_grid_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo', 'merge_install': False, 'path': '/home/deylahm/Desktop/ros2 (copy)/src/occupancy_grid_demo', 'symlink_install': False, 'test_result_base': None}
+[5.435s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.441s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/deylahm/Desktop/ros2 (copy)/src/holonomic_robot' with build type 'ament_python'
+[5.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('holonomic_robot', 'ament_prefix_path')
+[5.456s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/hook/ament_prefix_path.ps1'
+[5.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/hook/ament_prefix_path.dsv'
+[5.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/hook/ament_prefix_path.sh'
+[5.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.021s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/deylahm/Desktop/ros2 (copy)/src/holonomic_robot'
+[9.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deylahm/Desktop/ros2 (copy)/src/holonomic_robot': PYTHONPATH=/home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/holonomic_robot build --build-base /home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/build install --record /home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/install.log --install-scripts $base/lib/holonomic_robot --single-version-externally-managed install_data
+[16.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deylahm/Desktop/ros2 (copy)/src/holonomic_robot' returned '0': PYTHONPATH=/home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/holonomic_robot build --build-base /home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/build install --record /home/deylahm/Desktop/ros2 (copy)/build/holonomic_robot/install.log --install-scripts $base/lib/holonomic_robot --single-version-externally-managed install_data
+[16.352s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot' for CMake module files
+[16.365s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot' for CMake config files
+[16.368s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib'
+[16.369s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/bin'
+[16.369s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/pkgconfig/holonomic_robot.pc'
+[16.370s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/lib/python3.8/site-packages'
+[16.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('holonomic_robot', 'pythonpath')
+[16.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/hook/pythonpath.ps1'
+[16.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/hook/pythonpath.dsv'
+[16.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/hook/pythonpath.sh'
+[16.388s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/bin'
+[16.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(holonomic_robot)
+[16.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/package.ps1'
+[16.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/package.dsv'
+[16.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/package.sh'
+[16.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/package.bash'
+[16.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/holonomic_robot/package.zsh'
+[16.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deylahm/Desktop/ros2 (copy)/install/holonomic_robot/share/colcon-core/packages/holonomic_robot)
+[16.451s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/deylahm/Desktop/ros2 (copy)/src/occupancy_grid_demo' with build type 'ament_python'
+[16.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('occupancy_grid_demo', 'ament_prefix_path')
+[16.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/occupancy_grid_demo/hook/ament_prefix_path.ps1'
+[16.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/occupancy_grid_demo/hook/ament_prefix_path.dsv'
+[16.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/occupancy_grid_demo/hook/ament_prefix_path.sh'
+[16.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.787s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/deylahm/Desktop/ros2 (copy)/src/occupancy_grid_demo'
+[18.789s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deylahm/Desktop/ros2 (copy)/src/occupancy_grid_demo': PYTHONPATH=/home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/occupancy_grid_demo build --build-base /home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/build install --record /home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/install.log --install-scripts $base/lib/occupancy_grid_demo --single-version-externally-managed install_data
+[24.600s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo' for CMake module files
+[24.607s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo' for CMake config files
+[24.609s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib'
+[24.609s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/bin'
+[24.609s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/pkgconfig/occupancy_grid_demo.pc'
+[24.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deylahm/Desktop/ros2 (copy)/src/occupancy_grid_demo' returned '0': PYTHONPATH=/home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/occupancy_grid_demo build --build-base /home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/build install --record /home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/install.log --install-scripts $base/lib/occupancy_grid_demo --single-version-externally-managed install_data
+[24.614s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/python3.8/site-packages'
+[24.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('occupancy_grid_demo', 'pythonpath')
+[24.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/occupancy_grid_demo/hook/pythonpath.ps1'
+[24.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/occupancy_grid_demo/hook/pythonpath.dsv'
+[24.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/occupancy_grid_demo/hook/pythonpath.sh'
+[24.623s] Level 1:colcon.colcon_core.environment:checking '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/bin'
+[24.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(occupancy_grid_demo)
+[24.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/occupancy_grid_demo/package.ps1'
+[24.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/occupancy_grid_demo/package.dsv'
+[24.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/occupancy_grid_demo/package.sh'
+[24.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/occupancy_grid_demo/package.bash'
+[24.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/occupancy_grid_demo/package.zsh'
+[24.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/share/colcon-core/packages/occupancy_grid_demo)
+[24.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.655s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.701s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.701s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.820s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deylahm/Desktop/ros2 (copy)/install/local_setup.ps1'
+[24.830s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/deylahm/Desktop/ros2 (copy)/install/_local_setup_util_ps1.py'
+[24.843s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deylahm/Desktop/ros2 (copy)/install/setup.ps1'
+[24.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deylahm/Desktop/ros2 (copy)/install/local_setup.sh'
+[24.862s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/deylahm/Desktop/ros2 (copy)/install/_local_setup_util_sh.py'
+[24.866s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deylahm/Desktop/ros2 (copy)/install/setup.sh'
+[24.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deylahm/Desktop/ros2 (copy)/install/local_setup.bash'
+[24.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deylahm/Desktop/ros2 (copy)/install/setup.bash'
+[24.892s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deylahm/Desktop/ros2 (copy)/install/local_setup.zsh'
+[24.902s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deylahm/Desktop/ros2 (copy)/install/setup.zsh'

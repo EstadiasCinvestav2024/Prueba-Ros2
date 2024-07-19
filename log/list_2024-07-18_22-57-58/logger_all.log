@@ -1,0 +1,56 @@
+[21.963s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/deylahm/Desktop/ros2']
+[21.965s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/deylahm/Desktop/ros2'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f2dbad443d0>>, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('list',), names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f2dbad443d0>, verb_name='list', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f2dbad54490>)
+[39.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[39.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[39.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[39.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[39.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[39.443s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/deylahm/Desktop/ros2'
+[39.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extensions ['ignore', 'ignore_ament_install']
+[39.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extension 'ignore'
+[39.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extension 'ignore_ament_install'
+[39.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extensions ['colcon_pkg']
+[39.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extension 'colcon_pkg'
+[39.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extensions ['colcon_meta']
+[39.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extension 'colcon_meta'
+[39.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extensions ['ros']
+[39.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extension 'ros'
+[41.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extensions ['cmake', 'python']
+[41.751s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extension 'cmake'
+[41.751s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extension 'python'
+[41.751s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extensions ['python_setup_py']
+[41.752s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2) by extension 'python_setup_py'
+[41.752s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/build) by extensions ['ignore', 'ignore_ament_install']
+[41.752s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/build) by extension 'ignore'
+[41.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/build) ignored
+[41.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/install) by extensions ['ignore', 'ignore_ament_install']
+[41.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/install) by extension 'ignore'
+[41.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/install) ignored
+[41.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[41.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/log) by extension 'ignore'
+[41.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/log) ignored
+[41.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[41.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extension 'ignore'
+[41.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extension 'ignore_ament_install'
+[41.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extensions ['colcon_pkg']
+[41.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extension 'colcon_pkg'
+[41.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extensions ['colcon_meta']
+[41.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extension 'colcon_meta'
+[41.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extensions ['ros']
+[41.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extension 'ros'
+[41.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extensions ['cmake', 'python']
+[41.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extension 'cmake'
+[41.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extension 'python'
+[41.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extensions ['python_setup_py']
+[41.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src) by extension 'python_setup_py'
+[41.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src/occupancy_grid_demo) by extensions ['ignore', 'ignore_ament_install']
+[41.887s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src/occupancy_grid_demo) by extension 'ignore'
+[41.887s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src/occupancy_grid_demo) by extension 'ignore_ament_install'
+[41.887s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src/occupancy_grid_demo) by extensions ['colcon_pkg']
+[41.887s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src/occupancy_grid_demo) by extension 'colcon_pkg'
+[41.887s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src/occupancy_grid_demo) by extensions ['colcon_meta']
+[41.888s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src/occupancy_grid_demo) by extension 'colcon_meta'
+[41.888s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src/occupancy_grid_demo) by extensions ['ros']
+[41.888s] Level 1:colcon.colcon_core.package_identification:_identify(/home/deylahm/Desktop/ros2/src/occupancy_grid_demo) by extension 'ros'
+[42.197s] DEBUG:colcon.colcon_core.package_identification:Package '/home/deylahm/Desktop/ros2/src/occupancy_grid_demo' with type 'ros.ament_python' and name 'occupancy_grid_demo'
+[42.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

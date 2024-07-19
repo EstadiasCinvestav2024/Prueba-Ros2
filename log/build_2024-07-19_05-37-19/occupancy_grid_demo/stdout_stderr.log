@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/entry_points.txt
+writing requirements to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/requires.txt
+writing top-level names to ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/top_level.txt
+reading manifest file '../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying occupancy_grid_demo/occupancy_grid_publisher.py -> /home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/build/lib/occupancy_grid_demo
+running install
+running install_lib
+copying /home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/build/lib/occupancy_grid_demo/occupancy_grid_publisher.py -> /home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo
+byte-compiling /home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo/occupancy_grid_publisher.py to occupancy_grid_publisher.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/occupancy_grid_demo/occupancy_grid_demo.egg-info to /home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/python3.8/site-packages/occupancy_grid_demo-0.0.0-py3.8.egg-info
+running install_scripts
+Installing occupancy_grid_publisher script to /home/deylahm/Desktop/ros2 (copy)/install/occupancy_grid_demo/lib/occupancy_grid_demo
+writing list of installed files to '/home/deylahm/Desktop/ros2 (copy)/build/occupancy_grid_demo/install.log'
